@@ -6,6 +6,7 @@ import { NavBar } from "./components/navbar/NavBar";
 import { VideoComponent } from "./components/VideoAdd";
 import stemImage from "../../assets/images/WhatsApp Image 2023-05-17 at 6.30.22 AM.jpeg";
 import { ProductManagementRD } from "./components/afibotservices/ProductManagementRD";
+import { MobileRoboteIIntegration } from "./components/afibotservices/MobileRoboteIIntegration";
 
 export default function Home() {
 	return (
@@ -24,7 +25,7 @@ export default function Home() {
 						</MaxScreenSize>
 					</div>
 				</div>
-				<div className="mt-5 relative">
+				<div className=" relative">
 					<div className="relative">
 						<div className="empty-img-cover w-full h-80"></div>
 						<Image
@@ -43,6 +44,12 @@ export default function Home() {
 				<div className=" w-full">
 					<MaxScreenSize>
 						<ProductManagementRD />
+					</MaxScreenSize>
+				</div>
+				{/* MobileRoboteIIntegration */}
+				<div className="w-full">
+					<MaxScreenSize>
+						<MobileRoboteIIntegration />
 					</MaxScreenSize>
 				</div>
 			</div>
