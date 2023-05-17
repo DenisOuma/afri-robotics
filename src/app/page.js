@@ -14,7 +14,6 @@ export default function Home() {
 						<MaxScreenSize className="navbar w-full  m-auto flex-col justify-center py-5 ">
 							<NavBar />
 							{/* Hero Section */}
-
 							<HeroSection />
 						</MaxScreenSize>
 					</div>

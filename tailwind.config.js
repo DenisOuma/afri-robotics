@@ -11,6 +11,7 @@ module.exports = {
 				"page-bg-color": "#09101D",
 				"secondary-color": "#D8261C",
 				"primary-hover-effect": "#D8261C",
+				"background-color-talent": "#0c2233",
 
 				"primary-font-color": "#75757A",
 				"text-color-page": "#fff",

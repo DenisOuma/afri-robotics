@@ -51,3 +51,16 @@ body {
 	background-color: #d8251cb8;
 	box-shadow: #fa655d 0px 5px 15px;
 }
+
+.bottom-nav {
+	position: absolute;
+	bottom: 0;
+	/* right: 50%; */
+	margin-top: 10rem;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.hero-more {
+	justify-content: left;
+}
