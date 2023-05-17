@@ -15,7 +15,7 @@ export const NavBar = () => {
 					<li>About Us</li>
 				</ul>
 			</div>
-			<Button className="flex mx-5 uppercase p-10 rounded" primary>
+			<Button className="flex mx-5 uppercase p-10 rounded btn-primary" primary>
 				Get Started
 			</Button>
 		</div>

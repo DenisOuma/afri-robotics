@@ -10,6 +10,8 @@ module.exports = {
 			colors: {
 				"page-bg-color": "#09101D",
 				"secondary-color": "#D8261C",
+				"primary-hover-effect": "#D8261C",
+
 				"primary-font-color": "#75757A",
 				"text-color-page": "#fff",
 			},
