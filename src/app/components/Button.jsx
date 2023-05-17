@@ -9,7 +9,7 @@ export const Button = ({
 	...rest
 }) => {
 	const classes = className(
-		"flex text-[16px] hover:text-secondary-text-color  items-end py-2 font-[400]",
+		"flex text-[15px] hover:text-secondary-text-color  items-end py-2 font-[400]",
 		{
 			"bg-secondary-color text-[16px]": primary,
 		},

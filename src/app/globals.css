@@ -6,6 +6,7 @@
 	--foreground-rgb: 0, 0, 0;
 	--background-start-rgb: 214, 219, 220;
 	--background-end-rgb: "#09101D";
+	--hover-text-effect: "#121A27";
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,5 +24,11 @@ body {
 }
 .nav-bar-links > ul > li {
 	cursor: pointer;
-	margin-left: 1rem;
+	margin-right: 2rem;
+	font-weight: 500;
+	font-size: 15px;
+}
+
+.nav-bar-links > ul > li:hover {
+	color: #667da3;
 }
