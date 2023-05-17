@@ -1,7 +1,10 @@
+import Image from "next/image";
+import { StemEducation } from "./components/afibotservices/StemEducation";
 import { HeroSection } from "./components/homePage/HeroSection";
 import { MaxScreenSize } from "./components/MaxScreenSize";
 import { NavBar } from "./components/navbar/NavBar";
 import { VideoComponent } from "./components/VideoAdd";
+import stemImage from "../../assets/images/WhatsApp Image 2023-05-17 at 6.30.22 AM.jpeg";
 
 export default function Home() {
 	return (
@@ -15,6 +18,23 @@ export default function Home() {
 							<NavBar />
 							{/* Hero Section */}
 							<HeroSection />
+
+							{/* stem Education */}
+						</MaxScreenSize>
+					</div>
+				</div>
+				<div className="mt-5 relative">
+					<div className="relative">
+						<div className="empty-img-cover w-full h-80"></div>
+						<Image
+							className="w-full object-cover h-80"
+							src={stemImage}
+							alt="Stem Education"
+						/>
+					</div>
+					<div className="top-content w-full">
+						<MaxScreenSize>
+							<StemEducation />
 						</MaxScreenSize>
 					</div>
 				</div>
