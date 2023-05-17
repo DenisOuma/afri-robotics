@@ -4,7 +4,7 @@ import { Button } from "../Button";
 
 export const NavBar = () => {
 	return (
-		<div className="w-full flex items-center justify-between ">
+		<div className="w-full flex items-center justify-between m-auto max-w-7xl prime-nav">
 			<Logo />
 			<div className="flex items-center justify-between nav-bar-links">
 				<ul className="w-full flex items-center capitalize">

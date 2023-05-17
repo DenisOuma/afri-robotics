@@ -10,7 +10,7 @@ export default function Home() {
 				<div className="hero-secion relative w-full m-auto max-w-7xl items-center justify-between">
 					{/* the navigation Bar */}
 					<VideoComponent />
-					<div className="absolute top-0">
+					<div className="absolute top-0 w-full">
 						<MaxScreenSize className="navbar w-full  m-auto flex-col justify-center py-5 ">
 							<NavBar />
 							{/* Hero Section */}
