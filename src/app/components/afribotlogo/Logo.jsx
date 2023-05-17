@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import ImageLogo from "../../../../images/Screenshot_from_2023-05-17_02-28-25-removebg-preview.png";
+import ImageLogo from "../../../../assets/images/Screenshot_from_2023-05-17_02-28-25-removebg-preview.png";
 export const Logo = () => {
 	return (
 		<div className="">
