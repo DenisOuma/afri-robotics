@@ -5,6 +5,7 @@ import { MaxScreenSize } from "./components/MaxScreenSize";
 import { NavBar } from "./components/navbar/NavBar";
 import { VideoComponent } from "./components/VideoAdd";
 import stemImage from "../../assets/images/WhatsApp Image 2023-05-17 at 6.30.22 AM.jpeg";
+import { ProductManagementRD } from "./components/afibotservices/ProductManagementRD";
 
 export default function Home() {
 	return (
@@ -37,6 +38,12 @@ export default function Home() {
 							<StemEducation />
 						</MaxScreenSize>
 					</div>
+				</div>
+				{/* R&D */}
+				<div className=" w-full">
+					<MaxScreenSize>
+						<ProductManagementRD />
+					</MaxScreenSize>
 				</div>
 			</div>
 		</main>

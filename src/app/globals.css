@@ -67,7 +67,7 @@ body {
 
 .empty-img-cover {
 	position: absolute;
-	background: linear-gradient(to right, #09101d, #09101db6 50%, #09101d);
+	background: linear-gradient(to right, #09101d, #09101dca 50%, #09101d);
 }
 
 .top-content {
@@ -81,4 +81,5 @@ body {
 	display: flex;
 	align-items: center;
 	margin-top: 1rem;
+	color: #9b9b9b;
 }
