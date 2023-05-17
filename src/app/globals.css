@@ -75,3 +75,10 @@ body {
 	top: 0;
 	margin-top: 2rem;
 }
+
+/* list of elements */
+.list-elements > ul > li {
+	display: flex;
+	align-items: center;
+	margin-top: 1rem;
+}
