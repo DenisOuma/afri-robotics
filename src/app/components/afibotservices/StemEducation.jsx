@@ -9,7 +9,7 @@ export const StemEducation = () => {
 				<Image
 					src={robotImage}
 					alt="robot car"
-					className="h-[250px] w-[550px] "
+					className="h-[250px] w-[650px] "
 				/>
 			</div>
 			<div className="flex items-center justify-between m-auto full">
@@ -20,16 +20,25 @@ export const StemEducation = () => {
 							STEM, Robotics, and AI Education
 						</h1>
 					</div>
-					<h1 className="capitalize text-[2rem] font-bold leading-snug">
+					<h1 className="capitalize text-[1.5rem] font-bold leading-snug">
 						Promoting Innovation, Skill Development, and Collaborative Learning
 					</h1>
 
 					<div className="mt-5 w-3/4">
-						<p className="text-[14px]">
-							Robots takes operations to the next level. They work hand in hand
-							with human balancing the imperative for safety with the need for
-							flexibility and productivity.
-						</p>
+						<ul>
+							<li>
+								<p>Robotics and AI Labs for K-12 and Higher Education</p>
+							</li>
+							<li>
+								<p>Apprenticeship Programs for Hands-On Experience</p>
+							</li>
+							<li>
+								<p>
+									Coding and Robotics Festivals for Inspiring Creativity and
+									Exploration
+								</p>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>
